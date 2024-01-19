@@ -1,0 +1,48 @@
+{
+  "name": "codekeeper-assignment",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://ujrep.github.io/codekeeper-assignment/",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint ./src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "spell-check": "cspell ./src",
+    "cypress": "cypress open"
+  },
+  "dependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "axios": "^1.5.0",
+    "cypress": "^13.6.3",
+    "eslint-plugin-cypress": "^2.15.1",
+    "prettier": "^3.2.4",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.47.0",
+    "react-hook-form-persist": "^3.0.0",
+    "react-router-dom": "^6.21.2",
+    "react-tooltip": "^5.20.0",
+    "supports-color": "^9.4.0",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.15",
+    "cspell": "^7.3.5",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "postcss": "^8.4.29"
+  },
+  "packageManager": "yarn@4.0.0-rc.50"
+}

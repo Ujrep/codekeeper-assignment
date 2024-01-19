@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Mulish";
+    src: url("/fonts/Mulish-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Mulish";
+    src: url("/fonts/Mulish-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Mulish";
+    src: url("/fonts/Mulish-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  h1 {
+    @apply font-mulish text-2xl leading-10;
+  }
+
+  h2 {
+    @apply font-mulish text-xl leading-10
+  }
+
+  h3 {
+    @apply font-mulish text-lg leading-10
+  }
+
+  body {
+    @apply font-mulish leading-4
+  }
+}

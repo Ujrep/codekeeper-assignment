@@ -1,0 +1,39 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jest": true
+    },
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "extends": [
+        "eslint:recommended", 
+        "plugin:react/recommended",
+        "plugin:prettier/recommended",
+        "plugin:cypress/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint"],
+    "rules": {
+        "curly": 2,
+        "no-use-before-define": 1,
+        "no-console": ["error", { "allow": ["error"] }] ,
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-curly-brace-presence": ["error", { "props": "never", "children": "never", "propElementValues": "always" }],
+        "react/display-name": "off",
+        "react/no-unescaped-entities": "off",
+        "no-nested-ternary": 1,
+        "no-case-declarations": 1,
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": ["error"]
+    },
+    "globals": {
+        "process": true
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    }
+}
